@@ -1,0 +1,13 @@
+.nilimesh{
+    text-decoration: dotted;
+    text-transform: lowercase;
+    text-shadow: 3px 2px red;
+    text-indent: 50%;
+}
+.soumlii{
+    text-transform: uppercase;
+    text-shadow: gray;
+    text-indent: 40%;
+    float: left;
+    color: aqua;
+}

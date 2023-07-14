@@ -1,0 +1,15 @@
+.hi{
+    width: 200px;
+    height: 400px;
+    background-color: aqua;
+    float: left;
+}
+.hello{
+    width: 200px;
+    height: 400px;
+    background-color: red;
+    float: left;
+}
+.clear{
+    clear: both;
+}

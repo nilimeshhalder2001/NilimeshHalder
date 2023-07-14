@@ -1,0 +1,18 @@
+.menu{
+    background-color: green;
+    width: 300px;
+    height: 70px;
+}
+.ul{
+    list-style-type: none;
+}
+.a1{
+    text-decoration: none;
+    margin-right: 40px;
+    float: left;
+    font-size: 60px;
+    cursor: progress;
+}
+.a1:hover{
+    text-decoration: underline;
+}

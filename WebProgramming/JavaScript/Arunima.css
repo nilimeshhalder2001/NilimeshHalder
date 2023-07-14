@@ -1,0 +1,54 @@
+.button {
+    background-color :green ; /* Green */
+    border: none;
+    color: white;
+    font-size: 30px;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px 2px;
+    cursor: pointer;
+    border-color:blue ;
+    }
+    .button1 {
+        background-color:blue ; /* Green */
+        border: none;
+        color: white;
+        font-size: 30px;
+        padding: 10px 25px;
+        text-align: center;
+        text-decoration: double;
+        display: inline-block;
+        margin: 4px 2px;
+        cursor: pointer;
+        }
+    .body{
+      background-color:lightcyan;
+    }
+    .blink1 {
+        animation: blinker 3s linear infinite;
+        color:blue;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        line-height: 3px;
+        font-size: 32px;
+        font-weight: bold;
+    }
+    @keyframes blinker {
+        70% {
+            opacity: 0;
+        }
+    }
+    .blink2 {
+        animation: blinker 3s linear infinite;
+        color: orangered;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        line-height: 3px;
+        font-size: 32px;
+        font-weight: bold;
+    }
+    @keyframes blinker {
+        70% {
+            opacity: 0;
+        }
+    }

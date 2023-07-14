@@ -1,0 +1,26 @@
+.top{
+    background-color: blueviolet;
+    height: 100px;
+    width: 200px;
+    border: 4px red;
+    margin:0px;
+    text-align: center;
+    color: orange;
+}
+.middle{
+    background-color: aqua;
+    height: 100px;
+    width: 200px;
+    margin:0px;
+    text-align: center;
+    text-align:center;
+    color: black;
+}
+.bottom{
+    background-color: brown;
+    height: 100px;
+    width: 200px;
+    margin:0px;
+    color: greenyellow;
+    text-align: center;
+}

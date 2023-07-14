@@ -1,0 +1,18 @@
+.container{
+    background-color: orange;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.container>div{
+    background-color: blue;
+    height: 50px;
+    width: 70px;
+    padding: 20px;
+    border: 3px red solid;
+    
+}

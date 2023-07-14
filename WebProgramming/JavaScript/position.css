@@ -1,0 +1,38 @@
+.one{
+    border: 3px red solid;
+    padding: 4px;
+    position: static;
+    left: 30px;
+    right: 40px;
+}
+.two{
+    border: 4px green solid;
+    padding: 5px;
+    position: relative;
+    left: 600px;
+    clear: both;
+}
+.three{
+    border: 5px blue solid;
+    position: fixed;
+    top: 100px;
+    right: 500px;
+}
+.four{
+    border: 5px blue solid;
+    position: relative;
+    top: 300px;
+    width: 500px;
+    height: 500px;
+}
+.four1{
+    border: 4px red solid;
+    position: absolute;
+    top: 400px;
+    width: 400px;
+    left: 30px;
+
+}
+p{
+    text-shadow: 5px 3px green
+}

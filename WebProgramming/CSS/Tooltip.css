@@ -1,0 +1,26 @@
+.pi{
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    position: relative;
+    top: 3px;
+    bottom: 4000px;
+
+}
+.hi{
+    color: white;
+    font-size: 30px;
+    border-width: 30px;
+    background-color: brown;
+    display: inline;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 30px;
+    visibility: hidden;
+    
+}
+.pi:hover .hi{
+    visibility: visible;
+}

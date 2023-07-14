@@ -1,0 +1,21 @@
+.container{
+    height: 400px;
+    width: 1200px;
+    background-image: repeating-linear-gradient(yellow,red 30%,blue 40%);
+    border: 5px blue solid;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-content: center;
+
+}
+.container>div{
+    border: 3px solid green;
+    height: 20px;
+    width: 60px;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+}

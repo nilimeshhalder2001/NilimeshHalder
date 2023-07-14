@@ -1,0 +1,16 @@
+.section1{
+    background-color: blue;
+    float: left;
+    font-size: 70px;
+    
+}
+.section2{
+    background-color: brown;
+    float: right;
+    font-size: 60px;
+}
+.section3{
+    background-color: coral;
+    float: left;
+    font-size: 70px;
+}

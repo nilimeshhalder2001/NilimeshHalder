@@ -1,0 +1,28 @@
+[
+    {
+        "Name": "Nilimesh",
+        "Address":"Harindanga",
+        "Age":21
+    },   
+    {
+        "Name": "Soumili",
+        "Address":"Harindanga",
+        "Age":13
+    },
+        
+    {
+        "Name": "Arunima",
+        "Address":"Amira",
+        "Age":21
+    },
+    {
+        "Name":"Jagat Bandhu",
+        "Address" : "Harindanga",
+        "Age":59
+    },
+    {
+        "Name" : "Bishakha",
+        "Address": "Harindanga",
+        "Age":49  
+    }
+]

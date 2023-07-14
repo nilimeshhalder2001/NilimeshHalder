@@ -1,0 +1,137 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+.background{
+    background-image: linear-gradient(lightblue,lightgray);
+}
+.container{
+    max-width: 1000px;
+    background-color: aqua;
+    margin: 0 auto;
+    padding-left: 20px;
+}
+.pimage{
+    margin-top: 20px;
+    max-width: 120px;
+    max-height: 130px;
+    border: 4px white solid;
+    border-radius: 50%;
+    float: left;
+    
+}
+.header-bio{
+    float: left;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+h1,h2,h3,h4{
+    color: blue;
+}
+.contact{
+    margin-top: 20px;
+    float: right;
+    font-size: 17px;
+    text-align: left;
+    font-weight: bold;
+    text-decoration: none;
+    padding-right: 10px;
+    
+    
+}
+.text1{
+    margin-top: 20px;
+}
+.contact a{
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+.contact a:hover{
+    color: teal;
+    text-decoration: underline;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: solid black 3px;
+    width: 1000px;
+    margin: 0px auto;
+    border-bottom: none;
+    
+}
+.left{
+    float: left;
+    margin-top: 20px;
+    width: 20%;
+}
+.font-size{
+    font-size: 20px;
+    margin-top: 18px;
+}
+.right{
+    float: right;
+    float: 80%;
+    margin-top: 20px;
+}
+.para{
+    
+    font-size: 16px;
+    margin-right: 20px;
+    float: right;
+}
+.common-hr2{
+  border: 1px black solid;
+  width: 100%; 
+  margin: 10px auto;
+  margin-bottom: 10px;
+  margin-top: 120px;
+}
+.Wipro{
+    font-size: 17px;
+    color: blue;
+    font-weight: bold;
+    margin-right: 580px;
+}
+.harindanga{
+    font-size: 17px;
+    color: blue;
+    font-weight: bold;
+    margin-right: 420px;
+}
+.common-hr3{
+    border: 1px black solid;
+    width: 100%; 
+    margin-top: 30px;
+   
+  }
+  .para1{
+    font-size: 16px;
+    margin-right:10 px;
+    text-align: left;
+  }
+  .font-size1{
+    font-size: 20px;
+    margin-top: 45px;
+    margin-bottom: 120px;
+}
+.bottom-container{
+    height: 130px;
+    width: 950px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin: 0px auto;
+    margin-top: 30px;
+}
+.bottom-container a{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+}
+.bottom-container a:hover{
+    color: blue;
+    text-decoration: underline;
+}

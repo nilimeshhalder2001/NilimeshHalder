@@ -1,0 +1,24 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto 100px auto 100px;
+}
+.grid-container>div{
+    background-color: chocolate;
+    border: 1px solid black;
+    text-align: center;
+    padding:5px;
+    text-align: center;
+}
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.item2{
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+.item3{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
