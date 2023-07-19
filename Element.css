@@ -1,0 +1,20 @@
+.main{
+    text-align: center;
+    background-color: blue;
+    height: 400px;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+.desc{
+    background-color: orange;
+    margin: 0 auto;  
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    
+}

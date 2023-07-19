@@ -1,0 +1,33 @@
+.navbar{
+    background-color: #40868b;
+    padding: 1% 7%;
+    text-align: center;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.dropdown-container{
+    display: inline;
+    position: relative;
+}
+.dropdown-content{
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    text-align: left;
+    min-width: 100px;
+    background-color: #40868b;
+    display: none;
+
+}
+.dropdown-content a{
+    display: block;
+}
+.dropdown-container:hover .dropdown-content{
+    background-color: blue;
+    display: block;
+}
