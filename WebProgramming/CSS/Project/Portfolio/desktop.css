@@ -33,7 +33,7 @@
 
 /* profile design start */
 .profile-desc p{   
-    color: gray;  
+    color: rgb(8, 8, 8);  
     margin: 0 auto;
     text-align: center;  
     width: 50%; 
@@ -67,3 +67,24 @@
     margin-right: 15px;
 }
 /* introduction start */
+.achievement{
+    padding: 10px;
+    margin-left: 60px;
+}
+.contact{
+    padding: 10px;
+    margin-left: 120px;
+}
+.contact input,textarea{
+    padding: 5px;
+    
+}
+.contact-links{
+    padding: 10px;
+    margin-left: 90px;
+}
+.contact::after{
+    clear: both;
+    content: '';
+    display: table;
+}

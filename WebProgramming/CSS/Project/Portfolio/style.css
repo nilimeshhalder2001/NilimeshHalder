@@ -31,7 +31,13 @@ h2{
     text-align: center;
 }
 .dotted-hr{
-    border: dotted 6px white;
+    border: dotted 6px rgb(8, 8, 8);
+    border-bottom: none;
+    margin: 20px auto;
+    width: 70px;
+}
+.dotted-hr1{
+    border: dotted 6px rgb(250, 249, 249);
     border-bottom: none;
     margin: 20px auto;
     width: 70px;
@@ -68,8 +74,13 @@ h2{
 }
 /* nav bar end */
 
-/* profile design end */
-
+/* profile design start */
+.h1{
+    color: blue;
+}
+.p1{
+    color: black;
+}
 .profile{
     padding: 130px 10px;
     position: relative;
@@ -121,6 +132,12 @@ h2{
     text-align: center;
     font-family: 'Montserrat', sans-serif; 
 }
+.about-us h2{
+    color: black;
+}
+.padding{
+    padding-top: 30px;
+}
 .about-us-image img{
     border: 5px solid white;
     border-radius: 60%;
@@ -152,8 +169,8 @@ h2{
 /* 
 introduction card start  */
 .introduction{
-    padding: 1% 0%;
-    margin: 20px;
+    padding: 1% 2%;
+   
 }
 .introduction .card{
     background-color: #a39e9e;
@@ -189,8 +206,6 @@ introduction card start  */
 }
 .card-desc{
     text-align: left;
-    margin-top: 55px;
-    margin-right: 35px;
 }
 .card-desc ol li strong{
     color: black;
@@ -214,8 +229,7 @@ border: solid 1.5px white;
 
 /* relationship start */
 .relationship{
-    padding: 1% 0%;
-    margin: 20px;
+    padding: 1% 2%;
 }
 .relationship .card{
     background-color: #a39e9e;
@@ -234,3 +248,249 @@ border: solid 1.5px white;
     content: '';
 }
 /* relationship end */
+
+/* marriage start  */
+.marriage{
+    padding: 1% 2%;
+}
+.marriage .card{
+    background-color: #a39e9e;
+    border-radius: 5px;
+    padding: 10px;
+    transition: 0.3s;
+    height: 700px;
+    border: #0c6168 solid 5px; 
+}
+
+.marriage .card:hover{
+    box-shadow: 0 4px 8px 5px black;
+}
+.card-icon1.size{
+    margin-top: 20px;
+    width: 120px;
+    height: 150px;
+}
+.skills{
+    padding-right: 45px;
+}
+.skills li{
+    list-style: none;
+    font-weight: bold;
+    margin: 30px 10px;
+    position: relative;
+    text-transform: uppercase;
+}
+/* animation pogress bar */
+.skills li::before{
+    content: '';
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+    width: 100%;
+    height: 10px;
+    background-color: rgb(86, 86, 153, .5);
+    border-radius: 1000px;
+    
+}
+.skills li::after{
+    content: '';
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+    width: 0%;
+    height: 10px;
+    background-color: rgb(86, 86, 153, 1);
+    border-radius: 1000px;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+}
+.skills li.html::after{
+    animation-name: html;
+ }
+ 
+ @keyframes html{
+     to{
+         width: 90%;
+         /* background-color: orange; */
+     }
+ }
+ .skills li.css::after{
+    animation-name: css;
+ }
+ 
+ @keyframes css{
+     to{
+         width: 80%;
+     }
+ }
+ 
+ .skills li.bootstrap::after{
+     animation-name: bs;
+  }
+  
+  @keyframes bs{
+      to{
+          width: 85%;
+      }
+  }
+ 
+ .skills li.js::after{
+    animation-name: js;
+ }
+ 
+ @keyframes js{
+     to{
+         width: 75%;
+     }
+ }
+ 
+ .skills li.jquery::after{
+     animation-name: jq;
+  }
+  
+  @keyframes jq{
+      to{
+          width: 80%;
+      }
+  }
+ 
+ 
+ 
+ .skills li.node::after{
+    animation-name: node;
+ }
+ 
+ @keyframes node{
+     to{
+         width: 85%;
+     }
+ }
+ 
+ .skills li.express::after{
+     animation-name: express;
+  }
+  
+  @keyframes express{
+      to{
+          width: 75%;
+      }
+  }
+ 
+  .skills li.git::after{
+     animation-name: github;
+  }
+  
+  @keyframes github{
+      to{
+          width: 75%;
+      }
+  }
+  
+ 
+ .skills li.react::after{
+    animation-name: react;
+ }
+ 
+ @keyframes react{
+     to{
+         width: 65%;
+     }
+ }
+ /* animation pogress bar */
+.marriage::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+
+/* marriage end  */
+/* photo start */
+.heading{
+    background-color: orange;
+    display: inline;
+}
+.allphotos{
+    padding-left: 30px;
+}
+.photo-card img{
+    border: 3px solid rgba(21, 3, 85, 0.856);
+    border-radius: 20%;
+    box-shadow: 15px 15px 10px rgb(224, 235, 128);
+}
+.photo-card img:hover{
+    box-shadow: 0 4px 8px 5px rgb(250, 113, 113);
+}
+.place{
+    text-align: center;
+}
+.date{
+    margin-top: -10px;
+}
+.gallary{
+    clear: both;
+    background-color: #eefacd;
+}
+.gallary h2 .dotted-hr{
+    background-color: white;
+}
+.place::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+.heading::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+.gallary::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+/* photo end */
+
+/* achievement start */
+.achievement-contact{
+    padding: 1% 3%;
+    background-color: #39a4ac;
+    color: white;
+}
+.contact{
+    padding: 1% 3%;
+    text-align: center;
+}
+.contact input,textarea{
+    width: 100%;
+    padding: 2px;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+}
+.contact button{
+    border: none;
+    border-radius: 12px;
+    background-color: #052d2f;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    width: 70px;
+}
+.achievement-contact::after{
+    clear: both;
+    content: '';
+    display: table;
+}
+.achievement-contact::after{
+    clear: both;
+    content: '';
+    display: table;
+}
+
+/* achievement end */
