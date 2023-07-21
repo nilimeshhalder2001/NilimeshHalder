@@ -18,11 +18,14 @@
     text-align: left;
 }
 .navbar-heading h1{
-    text-align: right;
+    text-align: left;
+    margin-left: 12px;
+    justify-content: flex-start;
 }
 .navbar-menu{
     flex-direction: row;
     justify-content: flex-end;
+    
 }
 .navbar-menu a{
     background-color: #0c6168;
@@ -87,4 +90,11 @@
     clear: both;
     content: '';
     display: table;
+}
+.footer-menu a{
+    display: inline;
+    padding: 15px;
+}
+.footer-desc{
+    margin-top: -13px;
 }
